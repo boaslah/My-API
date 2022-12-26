@@ -5,7 +5,7 @@ const router = express.Router();
 
 
 router.get('/', (req, res)=>{
-    res.send("This is Blessing's Journal API");
+    res.send("This is Blessing's Journal API. And it's working!");
 })
 
 router.post('/', (req, res) => {
